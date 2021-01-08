@@ -145,6 +145,7 @@ nav span {
     align-items: center;
     font-size: .8em;
     font-weight: 500;
+    cursor: pointer;
   }
 
   .menu-button img {
@@ -206,7 +207,7 @@ nav span {
   }
 
   .sec-1-container {
-    width: 540px;
+    width: 70vw;
   }
 
   .section-1 h1 {
@@ -220,6 +221,12 @@ nav span {
     font-weight: 700;
     font-size: 3.5em;
     margin: 40px 0 25px 0;
+  }
+}
+
+@media(max-width: 365px){
+  .section-1 {
+    height: 570px;
   }
 }
 
