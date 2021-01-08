@@ -161,7 +161,7 @@ nav span {
     position: fixed;
     top: 72px;
     background-color: #212529;
-    transition: .2s linear;
+    animation: growDown .2s linear;
   }
   
   .mobile-menu {
@@ -220,5 +220,16 @@ nav span {
     font-weight: 700;
     font-size: 3.5em;
     margin: 40px 0 25px 0;
+  }
+}
+
+@keyframes growDown {
+  from{
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  to {
+    transform: scaleY(1);
+    transform-origin: top;
   }
 }
